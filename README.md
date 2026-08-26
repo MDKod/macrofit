@@ -1,56 +1,116 @@
-# Welcome to your Expo app 👋
+# 🥗 MacroFit
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern mobile nutrition tracking application built with **React Native**, **Expo**, and **TypeScript**.
 
-## Get started
+MacroFit helps users track their daily meals and macronutrients in a simple, clean, and intuitive mobile experience. 📱💪
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+### 🍽️ Meal Tracking
+- Add meals with:
+  - Meal name
+  - Calories
+  - Protein
+  - Carbohydrates
+  - Fat
+- View all saved meals
+- Delete meals with long press
+- Automatically store meal data locally
 
-   ```bash
-   npx expo start
-   ```
+### 📊 Macro Tracking
+- Track daily calories
+- Monitor protein intake
+- Track carbohydrates
+- Monitor fat consumption
 
-In the output, you'll find options to open the app in a
+### 🔔 Meal Reminders
+- Enable or disable meal reminders
+- Schedule daily lunch reminders
+- Schedule daily dinner reminders
+- Request notification permissions
+- Cancel scheduled notifications
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📋 Clipboard
+- Copy meal summaries and information to the clipboard
+- Useful for quickly sharing nutrition information
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 📤 Share
+- Share meal and nutrition information with other apps
+- Supports messaging, email, social media, and other sharing options
 
-## Get a fresh project
+### 📳 Haptic Feedback
+- Provides tactile feedback for user interactions
+- Uses different haptic feedback types for different actions
 
-When you're ready, run:
+### 💾 Local Data Storage
+Meal data and user preferences are stored locally using:
 
-```bash
-npm run reset-project
-```
+- `@react-native-async-storage/async-storage`
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This allows the application to preserve data between sessions.
 
-### Other setup steps
+### 🧭 Navigation
+Built with:
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+- Expo Router
+- React Navigation
+- Bottom Tab Navigation
 
-## Learn more
+Main sections include:
 
-To learn more about developing your project with Expo, look at the following resources:
+- 🏠 Home
+- ➕ Add Meal
+- 🍴 All Meals
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🛠️ Tech Stack
 
-Join our community of developers creating universal apps.
+### Frontend
+- ⚛️ React Native
+- 🟦 TypeScript
+- 🧭 Expo Router
+- 📱 Expo
+- 🎨 StyleSheet
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Expo APIs
+- 🔔 Expo Notifications
+- 📳 Expo Haptics
+- 📋 Expo Clipboard
+- 🖼️ Expo Image
+- 🎨 Expo Linear Gradient
+- 🌐 Expo Linking
+- 🌎 Expo Web Browser
+- 📱 Expo Device
+- 🧩 Expo Symbols
+
+### Storage
+- 💾 AsyncStorage
+
+### Navigation
+- React Navigation
+- React Navigation Bottom Tabs
+
+### Development Tools
+- Node.js
+- npm
+- TypeScript
+- Prettier
+- ESLint
+- EAS Build
+
+
+
+
+
+
+
+
+
+
+![gif](/assets/images/fit.mp4)
+
+
+
