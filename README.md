@@ -114,3 +114,9 @@ Main sections include:
 
 
 
+
+
+
+
+
+![gif](/assets/images/bildirim.jpg)
