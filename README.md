@@ -110,7 +110,7 @@ Main sections include:
 
 
 
-![gif](/assets/images/fit.mp4)
+![gif](/assets/images/fit.gif)
 
 
 
