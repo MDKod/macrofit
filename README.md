@@ -2,7 +2,7 @@
 
 A modern mobile nutrition tracking application built with **React Native**, **Expo**, and **TypeScript**.
 
-MacroFit helps users track their daily meals and macronutrients in a simple, clean, and intuitive mobile experience. 📱💪
+MacroFit helps users track their daily meals and macronutrients in a simple, clean, and intuitive mobile experience. 📱 (clone)
 
 ---
 
